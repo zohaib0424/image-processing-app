@@ -32,8 +32,6 @@ export const uploadImage = async (req: Request, res: Response) => {
 
 export const addComment = async (req: Request, res: Response) => {
   const { imageId, text } = req.body;
-
-  console.log({imageId, text});
   
 
   try {
